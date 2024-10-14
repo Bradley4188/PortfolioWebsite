@@ -313,7 +313,7 @@ header {
     content: '';
     display: block;
     width: 2em;
-    height: 1px;
+    height: 2px;
     margin: 0.5em auto 1em;
     background: var(--clr-light);
     opacity: 0.25;
@@ -321,11 +321,13 @@ header {
 
 .services {
     margin-bottom: 4em;
+ 
 }
 
 .service {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
+    padding-left: 5rem;
 }
 
 @media (min-width: 800px) {
@@ -401,10 +403,16 @@ header {
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    
+
   
 }
 
 .portfolio__img {
+   
+    width: 100%; /* Ensure the box takes up full width */
+    height: 100%; /* Adjust height as needed */
+    
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
