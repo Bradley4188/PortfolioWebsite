@@ -321,13 +321,19 @@ header {
 
 .services {
     margin-bottom: 4em;
+    
  
 }
+
 
 .service {
     max-width: 700px;
     margin: 0 auto;
-    padding-left: 5rem;
+    padding-left: 4rem;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;    
+    
 }
 
 @media (min-width: 800px) {
@@ -336,6 +342,7 @@ header {
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
+        
     }
     
     .service + .service {
