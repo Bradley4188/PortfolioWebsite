@@ -321,16 +321,13 @@ header {
 
 .services {
     margin-bottom: 4em;
-    
- 
 }
 
 
 .service {
     max-width: 700px;
-    margin: 0 auto;
-    padding-left: 4rem;
-    text-align: center;
+    margin: 1 auto;
+    padding-left: 2rem;
     justify-content: center; 
     align-items: center;    
     
